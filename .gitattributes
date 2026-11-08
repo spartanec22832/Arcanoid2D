@@ -1,0 +1,10 @@
+# Unity scenes and prefabs
+*.unity text eol=lf
+*.prefab text eol=lf
+*.meta text eol=lf
+
+# Unity project settings
+ProjectSettings/*.asset text eol=lf
+
+# Unity package configuration
+Packages/*.json text eol=lf
