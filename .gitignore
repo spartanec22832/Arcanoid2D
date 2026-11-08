@@ -136,3 +136,7 @@ crashlytics-build.properties
 
 # Auto-generated cache in Assets folder
 /[Aa]ssets/[Ss]ceneDependencyCache*
+
+# Unity Version Control / Plastic SCM
+/.plastic/
+/ignore.conf
