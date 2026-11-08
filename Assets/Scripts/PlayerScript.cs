@@ -20,6 +20,7 @@ public class PlayerScript : MonoBehaviour
     }
 
     public GameObject bluePrefab;
+    public GameObject specialBluePrefab;
     public GameObject redPrefab;
     public GameObject greenPrefab;
     public GameObject yellowPrefab;
@@ -178,6 +179,8 @@ public class PlayerScript : MonoBehaviour
         CreateBlocks(specialRedPrefab, xMax, yMax, 1 + (level - 1) / 5, 4);
 
         CreateBlocks(bluePrefab, xMax, yMax, level, 8);
+
+        CreateBlocks(specialBluePrefab, xMax, yMax, 1 + (level / 3), 3);
 
         CreateBlocks(redPrefab, xMax, yMax, 1 + level, 10);
 
