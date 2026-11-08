@@ -521,6 +521,7 @@ MonoBehaviour:
   redPrefab: {fileID: 6888472635473045588, guid: a1704dfb128215348801549828aa764a, type: 3}
   greenPrefab: {fileID: 6888472635473045588, guid: 76d8382361eafc140ab3d639b2919807, type: 3}
   yellowPrefab: {fileID: 6888472635473045588, guid: bb04c77775daf5e4089a5eb1a14e2e64, type: 3}
+  specialYellowPrefab: {fileID: 8327481880938429402, guid: c0c96c6ec799afb4896b921035b02e84, type: 3}
   specialRedPrefab: {fileID: 6888472635473045588, guid: 0bcdcee3cd943494fb579e164577430c, type: 3}
   ballPrefab: {fileID: 5048987114582858202, guid: 1e009b2c3affb254eb8c5d90b29cf50e, type: 3}
   gameData: {fileID: 11400000, guid: 28ea9da4a79e5c547943a6ebc56e3f4c, type: 2}
