@@ -23,6 +23,7 @@ public class PlayerScript : MonoBehaviour
     public GameObject redPrefab;
     public GameObject greenPrefab;
     public GameObject yellowPrefab;
+    public GameObject specialRedPrefab;
     public GameObject ballPrefab;
 
     public GameDataScript gameData;
@@ -172,6 +173,8 @@ public class PlayerScript : MonoBehaviour
         var yMax = Camera.main.orthographicSize * 0.8f;
 
         var xMax = Camera.main.orthographicSize * Camera.main.aspect * 0.85f;
+
+        CreateBlocks(specialRedPrefab, xMax, yMax, 1 + (level - 1) / 5, 4);
 
         CreateBlocks(bluePrefab, xMax, yMax, level, 8);
 
